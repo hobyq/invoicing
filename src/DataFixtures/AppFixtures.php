@@ -16,7 +16,8 @@ class AppFixtures extends Fixture
     {
         // Invoice States
         $states = [
-            'Unpaid',
+            'Created',
+            'Sent to Client',
             'Paid'
         ];
         foreach ($states as $label) {
