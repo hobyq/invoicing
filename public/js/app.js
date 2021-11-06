@@ -1,0 +1,1 @@
+import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js'import Example from './components/Example'/** * Create a fresh Vue Application instance */new Vue({    el: '#app',    components: {        Example,    }});
